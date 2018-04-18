@@ -1,0 +1,132 @@
+{
+  "Address": {
+    "text": "Please enter your address?",
+    "sublabels": {
+      "addr_line1": "Address Line 1",
+      "addr_line2": "Address Line 2",
+      "city": "City",
+      "state": "State",
+      "postal": "Zip Code",
+      "country": "Country"
+    },
+    "answer": {
+      "addr_line1": "840 Bernhard Trail",
+      "addr_line2": "Suite 552",
+      "city": "45X5L",
+      "state": "San Francisco",
+      "postal": "06660",
+      "country": "United States"
+    }
+  },
+  "Time": {
+    "text": "Time",
+    "answer": {
+      "hourSelect": "1",
+      "minuteSelect": "00",
+      "ampm": "PM"
+    }
+  },
+  "Fullname": {
+    "text": "Fullname",
+    "sublabels": {
+      "prefix": "Prefix",
+      "first": "First Name",
+      "middle": "Middle Name",
+      "last": "Last Name",
+      "suffix": "Suffix"
+    },
+    "answer": {
+      "first": "John",
+      "last": "Smith"
+    }
+  },
+  "Email": {
+    "text": "Email",
+    "answer": "example@example.com"
+  },
+  "Mixed": {
+    "text": "Mixed",
+    "sublabels": {
+      "field_0": "",
+      "field_1": "Please enter your text",
+      "field_2": "Please enter your email",
+      "field_3": "Please enter a number",
+      "field_4": "Please select an option"
+    },
+    "answer": {
+      "field_1": "textbox_sample17",
+      "field_2": "john@example.com",
+      "field_3": "1",
+      "field_4": "Option 1"
+    }
+  },
+  "Phone": {
+    "text": "Phone",
+    "answer": {
+      "country": "90",
+      "area": "312",
+      "phone": "2992320",
+      "full": "(312) 2992320"
+    },
+    "sublabels": {
+      "country": "Country Code",
+      "area": "Area Code",
+      "phone": "Phone Number",
+      "full": "Phone Number",
+      "masked": ""
+    }
+  },
+  "Textbox": {
+    "text": "Textbox",
+    "answer": "Lorem ipsum dolor sit amet"
+  },
+  "Text": {
+    "text": "I AM A TEXT (Such text much testing wow)"
+  },
+  "Dropdown": {
+    "text": "Dropdown",
+    "answer": ["opt1", "opt2"]
+  },
+  "Imagechoice": {
+    "text": "Image Choice",
+    "answer": [
+      "a|https://icons.jotfor.ms/cardforms/assets/icons/icon-sets-v2/color/Colored/jfc_icon_color-coloredjfsvg-business-color_bank.png"
+    ]
+  },
+  "Radio": {
+    "text": "Single Choice",
+    "answer": {
+      "other": "opt1"
+    }
+  },
+  "Checkbox": {
+    "text": "Multiple Choice",
+    "answer": {
+      "0": "Type option 1",
+      "other": "asd"
+    }
+  },
+  "Yesno": {
+    "text": "YesNo",
+    "answer": "YES"
+  },
+  "Textarea": {
+    "text": "Textarea",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Datetime": {
+    "text": "Datetime",
+    "answer": {
+      "year": "2018",
+      "month": "04",
+      "day": "25",
+      "hour": "2",
+      "min": "10",
+      "ampm": "PM"
+    }
+  },
+  "Spinner": {
+    "text": "Spinner",
+    "answer": "42"
+  }
+}

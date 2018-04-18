@@ -1,9 +1,18 @@
-import React, {Component} from 'react'
-
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+export { default as Address } from './fields/Address';
+export { default as Checkbox } from './fields/Checkbox';
+export { default as Datetime } from './fields/Datetime';
+export { default as Dropdown } from './fields/Dropdown';
+export { default as Email } from './fields/Email';
+export { default as Fullname } from './fields/Fullname';
+export { default as Imagechoice } from './fields/Imagechoice';
+export { default as Matrix } from './fields/Matrix';
+export { default as Mixed } from './fields/Mixed';
+export { default as Phone } from './fields/Phone';
+export { default as Radio } from './fields/Radio';
+export { default as Rating } from './fields/Rating';
+export { default as Spinner } from './fields/Spinner';
+export { default as Text } from './fields/Text';
+export { default as Textarea } from './fields/Textarea';
+export { default as Textbox } from './fields/Textbox';
+export { default as Time } from './fields/Time';
+export { default as Yesno } from './fields/Yesno';

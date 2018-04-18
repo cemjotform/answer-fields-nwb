@@ -1,15 +1,17 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React from 'react';
+import { render } from 'react-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Example from '../../src'
+import Preview from './containers/Preview';
 
-class Demo extends Component {
-  render() {
-    return <div>
-      <h1>nwbTest Demo</h1>
-      <Example/>
-    </div>
-  }
-}
-
-render(<Demo/>, document.querySelector('#demo'))
+render(
+  (
+    <Router>
+      <Switch>
+        <Route path="/preview/:field?" component={Preview} />
+        {/* <Route path="/:formID?" component={Submission} /> */}
+      </Switch>
+    </Router>
+  )
+  , document.getElementById('demo')
+);

@@ -1,3 +1,6 @@
+const path = require('path');
+const demoPath = path.resolve('./demo');
+
 module.exports = {
   type: 'react-component',
   npm: {
@@ -9,4 +12,4 @@ module.exports = {
       }
     }
   }
-}
+};

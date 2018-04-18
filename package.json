@@ -1,6 +1,6 @@
 {
   "name": "nwbTest",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "nwbTest React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,14 +18,27 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "gh-pages": "^1.1.0",
+    "prop-types": "^15.6.1",
+    "styled-components": "^3.2.6"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-jotform": "^1.0.23",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
     "nwb": "0.21.x",
+    "nwb-sass": "^0.8.4",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
   },
   "author": "",
   "homepage": "",
