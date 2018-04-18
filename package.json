@@ -1,6 +1,6 @@
 {
   "name": "answer-fields-nwb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Answer Fields Nwb",
   "main": "lib/index.js",
   "module": "es/index.js",
