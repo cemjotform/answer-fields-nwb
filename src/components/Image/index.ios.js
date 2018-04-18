@@ -1,5 +1,6 @@
 import React from 'react';
-import { Image } from 'react-native';
+import PropTypes from 'prop-types';
+import { Image as SimpleImage } from 'react-native';
 
 const Image = ({
   alt,
@@ -9,7 +10,7 @@ const Image = ({
   const source = src ? { uri: src } : {};
 
   return (
-    <Image
+    <SimpleImage
       alt={alt}
       source={source}
       {...props}
