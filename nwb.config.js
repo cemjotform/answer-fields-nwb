@@ -8,7 +8,8 @@ module.exports = {
     umd: {
       global: 'AnswerFields',
       externals: {
-        react: 'React'
+        react: 'React',
+        'react-native': 'react-native'
       }
     }
   }
